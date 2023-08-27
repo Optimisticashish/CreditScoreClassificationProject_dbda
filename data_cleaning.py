@@ -5,9 +5,8 @@ import numpy as np
 import scipy.stats as stats
 import datetime
 
-print(f"Started time : {datetime.datetime.now()}")
-
-
+print(f"Started time : {datetime.datetime.now()")
+#here are the functions to claen  the data 
 def get_column_details(df, column):  # to get the column details
     print("Details of", column, "column")
 
