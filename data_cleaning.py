@@ -79,7 +79,7 @@ def clean_categorical_field(df, groupby, column, replace_value=None):
     # For each Customer_ID, assign same value for the column
     fill_missing_with_group_mode(df, groupby, column)
 
-# Method to clean Numerical Field
+# Method to clean Numerical Fields
 
 
 def clean_numerical_field(df, groupby, column, strip=None, datatype=None, replace_value=None):
